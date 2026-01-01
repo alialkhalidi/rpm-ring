@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rpm-ring"
+readme = {file = "README.md", content-type = "text/markdown"}
+dynamic = ["version"]
+authors = [
+    { name="Ali Al-Khalidi", email="ali.alkhalidi@gendigital.com" },
+]
+license = {text = "MIT License"}
+description = "RPM ring buffer"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+    "Topic :: Software Development",   
+]
+
+[project.scripts]
+rpm-ring = "src:rpm_ring.main"
+
+
+[project.urls]
+Repository = "https://gitlab.com/securekey/exchange/rpm-ring.git"
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[tool.setuptools_scm]

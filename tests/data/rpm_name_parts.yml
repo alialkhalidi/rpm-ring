@@ -1,0 +1,49 @@
+---
+- name: package-1.2.3-4.x86_64.rpm
+  parts: {
+        "name": "package",
+        "version": "1.2.3",
+        "release": "4",
+        "arch": "x86_64",
+        "ext": "rpm"
+    }
+- name: package-1.2.3.4-5.x86_64.rpm
+  parts: {
+        "name": "package",
+        "version": "1.2.3.4",
+        "release": "5",
+        "arch": "x86_64",
+        "ext": "rpm"
+    }
+- name: package_name-1.2.3-4.x86_64.rpm
+  parts: {
+         "name": "package_name",
+         "version": "1.2.3",
+         "release": "4",
+         "arch": "x86_64",
+         "ext": "rpm"
+     }
+- name: package-1.2.3-4.noarch.rpm
+  parts: {
+         "name": "package",
+         "version": "1.2.3",
+         "release": "4",
+         "arch": "noarch",
+         "ext": "rpm"
+     }
+- name: package-1.2.3.4.5-6.noarch.rpm
+  parts: {
+         "name": "package",
+         "version": "1.2.3.4.5",
+         "release": "6",
+         "arch": "noarch",
+         "ext": "rpm"
+     }
+- name: package-1.2.3.10-5.x86_64.rpm
+  parts: {
+        "name": "package",
+        "version": "1.2.3.10",
+        "release": "5",
+        "arch": "x86_64",
+        "ext": "rpm"
+    }
