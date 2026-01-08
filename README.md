@@ -1,4 +1,4 @@
-# rpm-ring
+# last-rpm
 rpm ring buffer to maintain last X versions (and Y release per version).
 
 Helps trim-down package storage by maintaining only the most recent and relevant packages in an RPM repository, like Foreman.
@@ -14,7 +14,7 @@ $ hammer --username USERNAME --password PASSWORD --server https://FOREMAN_SERVER
 
 ## Usage
 ```bash
-usage: rpm-ring [-h] --csvFile CSVFILE [--keepVersions KEEPVERSIONS] [--versionReleases VERSIONRELEASES]
+usage: last-rpm [-h] --csvFile CSVFILE [--keepVersions KEEPVERSIONS] [--versionReleases VERSIONRELEASES]
 
 RPM Ring
 
