@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rpm-ring"
+name = "last-rpm"
 readme = {file = "README.md", content-type = "text/markdown"}
 dynamic = ["version"]
 authors = [
@@ -21,11 +21,11 @@ classifiers = [
 ]
 
 [project.scripts]
-rpm-ring = "src:rpm_ring.main"
+last-rpm = "src:rpm_ring.main"
 
 
 [project.urls]
-Repository = "https://gitlab.com/securekey/exchange/rpm-ring.git"
+Repository = "https://gitlab.com/securekey/exchange/last-rpm.git"
 
 [tool.setuptools.packages.find]
 include = ["src*"]
